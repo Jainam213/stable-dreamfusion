@@ -161,7 +161,6 @@ latents.backward(gradient=grad, retain_graph=True)
 * Network backbone (`./nerf/network*.py`) can be chosen by the `--backbone` option.
 * Spatial density bias (gaussian density blob): `./nerf/network*.py > NeRFNetwork > gaussian`.
 
-# Acknowledgement
 
 * The amazing original work: [_DreamFusion: Text-to-3D using 2D Diffusion_](https://dreamfusion3d.github.io/).
     ```
