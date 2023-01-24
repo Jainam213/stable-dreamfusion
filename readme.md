@@ -196,15 +196,3 @@ latents.backward(gradient=grad, retain_graph=True)
     ```
 
 * The GUI is developed with [DearPyGui](https://github.com/hoffstadt/DearPyGui).
-
-# Citation
-
-If you find this work useful, a citation will be appreciated via:
-```
-@misc{stable-dreamfusion,
-    Author = {Jiaxiang Tang},
-    Year = {2022},
-    Note = {https://github.com/ashawkey/stable-dreamfusion},
-    Title = {Stable-dreamfusion: Text-to-3D with Stable-diffusion}
-}
-```
